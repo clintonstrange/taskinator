@@ -138,10 +138,10 @@ var taskButtonHandler = function (event) {
     //get the element's task id
     var taskId = event.target.getAttribute("data-task-id");
 
-    if (event.target.matches(".delete-btn")) {
-      var taskId = event.target.getAttribute("data-task-id");
-      deleteTask(taskId);
-    }
+    // if (event.target.matches(".delete-btn")) {
+    //   var taskId = event.target.getAttribute("data-task-id");
+    deleteTask(taskId);
+    // }
   }
 };
 
