@@ -206,7 +206,7 @@ var completeEditTask = function (taskName, taskType, taskId) {
 
   saveTasks();
 
-  alert("Task Updated!");
+  alert(taskName + " Was Updated!");
 
   formEl.removeAttribute("data-task-id");
   document.querySelector("#save-task").textContent = "Add Task";
